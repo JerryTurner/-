@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+		 .top_bac{
+			 background: #B1B3B5;
+			 height: 300px;
+			
+		 }
+		 .top_bac_img{
+			 width:100%;
+			 height: 300px;
+		 }
+		 .wenzi{
+			 text-align: center;
+			 font-size: 40px;
+			 padding: 30px;
+		 }
+		 .wrap1{
+			 display: flex;
+			 border: 1px solid #000000;
+			 width: 642px;
+			 margin: auto;
+			 
+		 }
+		 .wrap1_inp{
+			 width: 600px;
+			 height: 80px;
+			 border: 1px solid #000000;
+			 font-size:40px;
+		 }
+		 .wrap1_img{
+			 height:42px;
+			 width: 40px;
+			 border: 1px solid #000000;
+			 padding: 20px;
+		 }
+		.anniu{
+			position: relative;
+			font-size: 30px;
+			display: flex;
+			flex-direction: row;
+			/* border: 1px solid #000000; */
+			width: 642px;
+			margin: 30px 0 0 0;
+			margin: auto;
+			margin-top: 30px;
+			line-height: 60px;
+		}
+		.anniu_ipt_che{
+			width: 30px;
+			height: 30px;
+		}
+		.anniu_fuwu{
+			color: #009DDA;
+		}
+		.anniu_rig{
+			position: absolute;
+			right: 10px;
+		}
+		.but{
+			text-align: center;
+		}
+		.but_but{
+			width: 642px;
+			height: 80px;
+			background: green;
+			font-size: 40px;
+			margin-top: 40px;
+		}
+		.cls{
+			margin-top: 60px;
+			border: 1px solid #000000;
+			font-size: 40px;
+			height: 120px;
+			flex-direction: row;
+			line-height: 120px;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			padding: 20px;
+		
+		}
+		.cls_left{
+			float: left;
+		}
+		.cls_right{
+			float: right;
+		}
+		.cls_right_but{
+			height: 120px;
+			width: 300px;
+			color: white;
+			font-size: 50px;
+			background: green;
+			border: none;
+		}
+		.ent{
+			font-size: 40px;
+			border: 1px solid #000000;
+			height: 120px;
+			width: 900px;
+			margin: auto;
+			margin-top: 20px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+		}
+		.biaozhi{
+			float: left;
+			width: 600px;
+		}
+		.ent_right{
+			float: right;
+			
+			top: 10px;
+			line-height: 120px;
+		}
+		.ent_right_but{
+			background: red;
+			font-size: 40px;
+			width: 200px;
+			height: 60px;
+			margin-right: 20px
+		}
+		.biaozhi_spn{
+			line-height: 120px;
+			
+		}
+		.tubiao{
+			width:10%;
+			height:10%;
+		}
+		.vin{
+			height: 40px;
+			font-size: 35px;
+			margin-top: 30px;
+			font-weight: 400;
+			margin: 30px 0px 30px 0;
+		}
+		.vin_one{
+			float: left;
+		}
+		.vin_two{
+			float: right;
+			margin: 0px 10% 0px 0px;
+		}
+		.shijian{
+			font-size: 32px;
+			font-weight:500;
+			height: 40px;
+			border: 1px solid #000000;
+			border-top: none;
+			border-left:none;
+			border-right:none ;
+			padding: 10px 0px 10px 0px;
+			border-left-width: 2px;
+		}
+		.shijian_one{
+			float: left;
+		}
+		.shijian_two{
+			float: right;
+		}
+		.shitu{
+			height: 60px;
+		}
+		.xiangxi_shijian{
+			font-size: 40px;
+			margin: 10px 0px 0px 0px;
+			float: left;
+		}
+		.xiangxi_shijian_img{
+			
+		}
+		.xiangxi_shijian_img_img{
+			width: 5%;
+			height: 5%;
+			margin: 10px 0px 0px 50px;
+			
+		}
+		.xiangxi_wenzhang{
+			font-weight: 800;
+			font-size: 35px;
+			width: 800px;
+			border: 3px solid #000000;
+			float: right;
+			line-height: 60px;
+			padding: 20px;
+			border-right: none;
+			border-top:none ;
+			border-bottom: none;
+		}
+		.zhixian{
+			border: 1px solid #000000;
+			height: 300px;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+		}
+		.dianji{
+			text-align: center;
+			font-size: 40px;
+			font-weight: 600;
+			padding: 10px 0px 10px 0px;
+		}
+		.but1{
+			display: flex;
+			flex-direction: row;
+			font-size: 30px;
+			border: 1px solid #000000;
+			height: 74px;
+			line-height: 74px;
+			
+			
+		}
+		.but1_one{
+			border: 1px solid #000000;
+			width: 33.3%;
+			text-align: center;
+			font-size: 30px;
+			background: #009DDA;
+			color: white;
+		}
+		.but1_two{
+			border: 1px solid #000000;
+			width: 33.3%;
+			text-align: center;
+		}
+		.but1_three{
+			border: 1px solid #000000;
+			width: 33.3%;
+			text-align: center;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top_bac">
+				 <img class="top_bac_img" src="../查好车V1.0.0版本_43/查好车V1.0.0版本/images/vin码确认/u496.png" >
+			</div>
+			<div class="wenzi">二手车水太深？让我们来给您还原真实面目！</div>
+			<div class="wrap1">
+				<input class="wrap1_inp" type="text" placeholder="请输入17位VIN码"/>
+				<img class="wrap1_img" src="../查好车V1.0.0版本_43/查好车V1.0.0版本/images/首页/u330.png" >
+			</div>
+			<div class="anniu">
+				<div class="anniu_ipt">
+					<input class="anniu_ipt_che" type="checkbox" name="" id="" value="" />
+				</div>
+				<div class="anniu_col">同意查好车</div>
+				<div class="anniu_fuwu">《服务协议》</div>
+				<div class="anniu_rig">什么是VIN码</div>
+			</div>
+			<div class="but">
+				<button class="but_but" type="button">查询</button>
+			</div>
+			<div class="cls">
+				<div class="cls_left">报告样例,仅供参考！</div>
+				<div class="cls_right">
+					<button class="cls_right_but" type="button">我要认证</button>
+				</div>
+			</div>
+			<div class="ent">
+				<div class="biaozhi">
+					<img class="tubiao" src="../查好车V1.0.0版本_43/查好车V1.0.0版本/images/首页/u344.png" >
+					<span class="biaozhi_spn">2019款C 180 L 动感型运动版</span>
+				</div>
+				<div class="ent_right">
+					<button class="ent_right_but" type="button">综合办</button>
+				</div>
+			</div>
+			<div class="vin">
+				<div class="vin_one">VIN：LGXCE6CBXH0123060</div>
+				<div class="vin_two">合计维修次数：30</div>
+			</div>
+			<div class="shijian">
+				<div class="shijian_one">最后维修时间：2019-04-10 18:22:34</div>
+				<div class="shijian_two">最后维修里程(km)：2000</div>
+			</div>	
+			<div class="xiangxi">
+				<div class="shitu">
+				  <div class="xiangxi_shijian">2019.01.11</div>
+				  <div class="xiangxi_shijian_img">
+					  <img class="xiangxi_shijian_img_img" src="../查好车V1.0.0版本_43/查好车V1.0.0版本/images/首页/u372.png" >
+				  </div>
+				</div>
+				<div class="xiangxi_wenzhang">
+					零件修理：首次7500公里免费保养，前保险杠喷漆<br>
+					；右后门板整形；右后门板喷漆；更换后门亮条；<br>
+					使用材料：机滤1.8T;车门防护条 1；<br>
+					行驶里程：8000km
+				</div>
+				<div class="zhixian"></div>
+			</div>
+			<div class="dianji">查看完整报告样例</div>
+			<div class="but1">
+				<div class="but1_one">
+					首页
+				</div>
+				<div class="but1_two">
+					订单
+				</div>
+				<div class="but1_three">
+					我的
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
